@@ -8,7 +8,7 @@
 	"perl": "6.c",
 	"license": "The Artistic License 2.0",
 	"provides": {
-		"Chemistry::Elements": "lib/CurrentPlatform.pm6"
+		"CurrentPlatform": "lib/CurrentPlatform.pm6"
 		},
 	"support": {
 		"source": "git@github.com:briandfoy/perl6-currentplatform.git"
