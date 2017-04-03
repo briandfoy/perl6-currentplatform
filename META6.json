@@ -1,0 +1,22 @@
+{
+	"authors": [
+		"brian d foy"
+		],
+	"depends": [],
+	"description": "Perl 6 extension for determining the operating system type",
+	"name": "CurrentPlatform",
+	"perl": "6.c",
+	"license": "The Artistic License 2.0",
+	"provides": {
+		"Chemistry::Elements": "lib/CurrentPlatform.pm6"
+		},
+	"support": {
+		"source": "git@github.com:briandfoy/perl6-currentplatform.git"
+		},
+	"test-depends": [
+		"Test",
+		"Test::META"
+		],
+	"version": "0.001001",
+	"tags": [  ]
+}
