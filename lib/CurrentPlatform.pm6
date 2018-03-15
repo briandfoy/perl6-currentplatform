@@ -80,18 +80,15 @@ method is-not-unix  { ! self.is-unix }
 method is-linux     { name() eq $Linux }
 method is-not-linux { ! self.is-linux }
 
-method is-archlinux { ... }
 method is-ubuntu    { name() eq 'ubuntu' }
 
 method is-bsd       { name() eq $BSD }
-method is-not-bsd   { ! self.is-bsd }
+method is-not-bsd   { ! self.is-bsd  }
 
-method is-freebsd   { name() eq 'freebsd' }
-method is-openbsd   { name() eq 'openbsd' }
-method is-netbsd    { name() eq 'netbsd'  }
-method is-dragonfly { name() eq 'dragonfly'  }
-
-method is-vms       { False }
+method is-freebsd   { name() eq 'freebsd'   }
+method is-openbsd   { name() eq 'openbsd'   }
+method is-netbsd    { name() eq 'netbsd'    }
+method is-dragonfly { name() eq 'dragonfly' }
 
 =begin pod
 
